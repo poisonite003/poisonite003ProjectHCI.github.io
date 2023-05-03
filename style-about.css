@@ -1,0 +1,233 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+#screen {
+	min-height: 600px;
+	width: 100%;
+}
+
+#screen #header {
+	height: 180px;
+	background-color: black;
+}
+
+.atas {
+	width: 100%px;
+ 	overflow: hidden;
+ 	min-height: 50px;
+	position: relative;
+}
+
+#screen #header #atas_kiri {
+	padding-top: 20px;
+	float: left;
+}
+
+#atas_kiri img {
+	height: 115px;
+	width: 260px;
+	margin-left: 50px;
+}
+
+#screen #header #atas_kanan {
+	height: 110px;
+	width: 550px;
+	float: right;
+	padding-top: 40px;
+	margin-right: 30px;
+}
+
+#screen #header #atas_kanan ul {
+	list-style-type: none;
+}
+
+#screen #header #atas_kanan ul li {
+	float: left;
+}
+
+#screen #header #atas_kanan a {
+	font-size: 22px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	display: block;
+	height: 90px;
+	text-align: center;
+	font-family: sans-serif;
+	margin-right: 30px;
+}
+
+#screen #header #atas_kanan a:hover {
+	color: #FFFF00;
+}
+
+#screen #header #atas_kanan #iconhome {
+	background-image: url('image/Home.png');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#screen #header #atas_kanan #iconhome:hover {
+	background-image: url('image/Home2.png');
+}
+
+#screen #header #atas_kanan #iconlaunch {
+	background-image: url('image/Rocket1.png');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#screen #header #atas_kanan #iconlaunch:hover {
+	background-image: url('image/Rocket.png');
+}
+
+#screen #header #atas_kanan #iconabout {
+	background-image: url('image/About.png');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#screen #header #atas_kanan #iconabout:hover {
+	background-image: url('image/About2.png');
+}
+
+#screen #header #atas_kanan #iconcontact {
+	background-image: url('image/Contact.png');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#screen #header #atas_kanan #iconcontact:hover {
+	background-image: url('image/Contact2.png');
+}
+
+/* CONTENT */
+
+.about {
+	min-height: 200px;
+	width: 100%;
+	background-image: linear-gradient(black, rgb(43, 3, 43));
+}
+
+.isian {
+	padding-top: 200px;
+	text-align: center;
+	/* background-color: #FFFF00; */
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.isian h1 {
+	font-size: 56px;
+	font-weight: 700px;
+	color: aquamarine;
+	font-family: Helvetica;
+	border-bottom: 3px solid gold;
+}
+
+.isian p {
+	font-size: 24px;
+	font-weight: 500px;
+	color: white;
+	margin-top: 60px;
+	padding-bottom: 200px;
+}
+
+.isian2 p{
+	text-align: center;
+	font-size: 18px;
+	color: rgb(51, 255, 0);
+}
+
+/* FOOTER */
+#screen #footer {
+	background-color: #000000;
+	height: 300px;
+	width: 100%;
+	line-height: 50px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+
+#screen #footer-left{
+	width: 480px;
+	color: white;
+	margin-left: 50px;
+	float: left;
+}
+
+#footer-left img{
+	height: 115px;
+	width: 260px;
+	padding-top: 50px;
+}
+
+#screen #footer-mid {
+	width: 350px;
+	height: 180px;
+	margin-right: 20px;
+	margin-top: 50px;
+	float: left;
+	text-align: center;
+	font-size: 50px;
+}
+
+#screen #footer-mid h3{
+	border-bottom: 2px solid white;
+	font-size: 24px;
+	color: white;
+}
+
+#screen #footer-mid p{
+	font-size: 20px ;
+	color: white;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+#screen #footer-right{
+	width: 340px;
+	margin-left: 20px;
+	margin-right: 50px;
+	float: right;
+	padding-top: 50px;
+}
+
+#screen #footer-right p{
+	border-bottom: 2px solid white;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	font-weight: 600;
+}
+
+#screen #footer-right ul{
+	list-style-type: none;
+}
+
+#screen #footer-right ul li{
+	width: 340px;
+	height: max-content ;
+}
+
+#screen #footer-right a{
+	font-size: 20px;
+	color: #BBBBBB;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-family: sans-serif;
+}
+#screen #footer-right ul li a:hover{
+	color: #ff7700;
+}
